@@ -18,6 +18,13 @@ def setup_project(framework, project_name):
     venv_path = os.path.join(project_path, "venv")
     subprocess.run(["python", "-m", "venv", venv_path])
     
+    # Install dependencies
+    subprocess.run([os.path.join(venv_path, "bin", "pip"), "install", "-r", os.path.join(project_path, "requirements.txt")])
     
+    # Initialize Git
+    subprocess.run(["git", "init", project_path])
+    
+        
+    print(f"✅ {framework} project '{project_name}' setup complete!")
     
     
