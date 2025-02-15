@@ -1,10 +1,10 @@
 
 import click
 
-from pycraft.setup_scripts import setup_flask
-from pycraft.setup_scripts import setup_django
-from pycraft.setup_scripts import setup_fastapi
-from pycraft.setup_scripts import setup_pygame
+from autopycraft.setup_scripts import setup_flask
+from autopycraft.setup_scripts import setup_django
+from autopycraft.setup_scripts import setup_fastapi
+from autopycraft.setup_scripts import setup_pygame
 
 @click()
 def cli():

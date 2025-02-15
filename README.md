@@ -1,7 +1,7 @@
 
 ---
 
-# **PyCraft 🛠️**  
+# **AutoPyCraft 🛠️**  
 
 **Automate Python Project Initialization & Structuring**  
 
@@ -25,7 +25,7 @@
 ## **🚀 Installation**  
 
 ```sh
-pip install pycraft
+pip install autopycraft
 ```
 
 OR install from source:  
