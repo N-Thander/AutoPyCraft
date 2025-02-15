@@ -3,7 +3,7 @@ requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "PyCraft"
+name = "AutoPyCraft"
 version = "0.1"
 description = "A CLI tool for setting up Python Project Structures"
 authors = [
@@ -21,6 +21,7 @@ setup-project = "project_setup.cli:setup"
 
 [tool.setuptools]
 packages = ["project_setup"]
+include-package-data = true  
 
-[tool.setuptools.packages-data]
-"project_setup" = ["template/*"]
+[tool.setuptools.package-data]  
+project_setup = ["templates/*"]  
