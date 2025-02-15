@@ -30,3 +30,9 @@ def setup_django(project_name):
 def setup_fastapi(project_name):
     setup_fastapi(project_name)
     
+
+# Command to setup a Pygame project
+@click.command()
+@click.argument("project_name") 
+def setup_pygame(project_name):
+    setup_pygame(project_name)
