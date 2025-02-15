@@ -14,6 +14,46 @@
 ## **📌 Overview**  
 **PyCraft** is a **CLI tool** that automates the setup of Python projects by creating structured directories, initializing virtual environments, and installing necessary dependencies.  
 
+
+## **Project Structure**  
+
+```
+
+autopycraft/
+├── setup_scripts/
+│   ├── __init__.py       # Initializes Flask app
+│   ├── routes.py         # Contains API routes
+│   ├── models.py         # Database models (if using SQLAlchemy)
+│   ├── templates/        # HTML templates (Jinja2)
+│   ├── static/           # CSS, JS, images
+├── test/                 # test class
+├── venv/                 # Virtual environment
+├── config.py             # Configuration settings
+├── requirements.txt      # Dependencies (flask, etc.)
+├── app.py                # Entry point
+├── .gitignore
+├── README.md
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ⚡ **Features:**  
 ✅ **Framework-specific setups** (Flask, FastAPI, Django, Pygame)  
 ✅ **Automatic directory & virtual environment creation**  
