@@ -22,3 +22,11 @@ def setup_flask(project_name):
 @click.argument("project_name")
 def setup_django(project_name):
     setup_django(project_name)
+
+
+# Command to setup a FastAPI project
+@click.command()
+@click.argument("project_name")
+def setup_fastapi(project_name):
+    setup_fastapi(project_name)
+    

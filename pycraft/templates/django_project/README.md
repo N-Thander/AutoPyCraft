@@ -14,7 +14,7 @@ django_project/
 │   ├── urls.py           # URL routing
 │   ├── wsgi.py           # Deployment setup
 │   ├── asgi.py           # Async support
-├── myapp/                # Application module
+├── app/                # Application module
 │   ├── __init__.py
 │   ├── models.py         # Database models
 │   ├── views.py          # Business logic
@@ -30,4 +30,4 @@ django_project/
 
 ```
 
-🔹 Run Flask App: ```python manage.py runserver```
+🔹 Run Django App: ```python manage.py runserver```
